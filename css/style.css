@@ -15,13 +15,26 @@
 /* цвет футера #2F303A */
 
 body {
-  background-color: var(--primary-background);
+  background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 }
 
 .list {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.logo-accent {
+  color: var(--accent);
+}
+
 
 /* стили Хедера */
 .logo {
@@ -39,11 +52,49 @@ body {
   color: var(--accent);
 }
 
+.link-nav {
+  color: var(--accent);
+}
+
 .ause-nav a {
   color: var(--primary-text-color);
 }
 
-/* стили боди */
-.titul {
-  color: var(--title-text-color)
+/* стили main */
+main {
+  background-color: var(--second-background-color);
+}
+
+.page-title {}
+
+.button-list {
+  color: var(--title-text-color);
+}
+
+.button-list button:hover,
+.button-list button:focus {
+  color: #ffffff;
+  background-color: var(--accent);
+}
+
+button {
+    border: none;
+}
+
+
+/* Подвал */
+footer {
+  background-color: var(--third-background-color);
+}
+
+.logo-footer{
+  color: #ffffff;
+}
+
+.footer-main-link{
+  color: #ffffff;
+}
+
+.footer-link{
+  color: rgba(255, 255, 255, 0.6);
 }
