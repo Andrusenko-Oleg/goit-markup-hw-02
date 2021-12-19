@@ -27,6 +27,23 @@ body {
 .logo {
   color: var(--title-text-color);
 }
-.list-nav .link {
+.list-nav {
   color: var(--title-text-color);
+}
+.link {
+  color: currentColor; 
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent);
+}
+
+.ause-nav a {
+  color: var(--primary-text-color);
+}
+
+/* стили боди */
+.titul {
+  color: var(--title-text-color)
 }
