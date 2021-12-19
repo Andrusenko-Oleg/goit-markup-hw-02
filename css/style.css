@@ -1,35 +1,32 @@
 /* универсальный стиль */
-:root{
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent: #2196F3;
-    --primary-background-color: #ffffff;
-    --second-background-color: #F5F4FA;
-    --third-background-color: #2F303A;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+  --primary-background-color: #ffffff;
+  --second-background-color: #f5f4fa;
+  --third-background-color: #2f303a;
 }
 /* основной цвет текста #212121 */
 /* вспомогательный цвет текста #757575 */
 /* основной цвет фона #E5E5E5 */
 /* Вспомогательный цвет фона #F5F4FA */
 /* акцент #2196F3 */
-/* цвет ыутера #2F303A */
-body{
-    background-color: var(--primary-background-color? tomato);
-    color: var(--primary-text-color);
+/* цвет футера #2F303A */
+
+body {
+  background-color: var(--primary-background);
+  color: var(--primary-text-color);
 }
 
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-
 
 /* стили Хедера */
-.logo{
-    color: var(--title-text-color);
+.logo {
+  color: var(--title-text-color);
 }
-.list-nav .link{
-    color: var(--title-text-color);
-}
-.link:hover{
-    
+.list-nav .link {
+  color: var(--title-text-color);
 }
