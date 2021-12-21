@@ -14,9 +14,13 @@
 /* акцент #2196F3 */
 /* цвет футера #2F303A */
 
+
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  
+  font-family: Roboto sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -29,19 +33,35 @@ a {
 
 .title {
   color: var(--title-text-color);
-}
 
-.logo-accent {
-  color: var(--accent);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 
 /* стили Хедера */
 .logo {
   color: var(--title-text-color);
+  
+  font-family: Raleway cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+
+letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--accent);
 }
 .list-nav {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .link {
   color: currentColor; 
@@ -58,6 +78,11 @@ a {
 
 .ause-nav a {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* стили main */
@@ -69,6 +94,13 @@ main {
 
 .button-list {
   color: var(--title-text-color);
+}
+
+.button-list button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .button-list button:hover,
@@ -97,4 +129,10 @@ footer {
 
 .footer-link{
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list {
+
+  font-size: 14px;
+  line-height: 1.7;
 }
