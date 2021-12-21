@@ -19,7 +19,9 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
 
@@ -44,7 +46,7 @@ a {
 .logo {
   color: var(--title-text-color);
   
-  font-family: Raleway cursive;
+  font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -85,7 +87,31 @@ letter-spacing: 0.03em;
   letter-spacing: 0.02em;
 }
 
-/* стили main */
+/* Подвал */
+footer {
+  background-color: var(--third-background-color);
+}
+
+.logo-footer{
+  color: #ffffff;
+}
+
+.footer-main-link{
+  color: #ffffff;
+}
+
+.footer-link{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list {
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* стили main portfolio*/
 main {
   background-color: var(--second-background-color);
 }
@@ -113,26 +139,62 @@ button {
     border: none;
 }
 
+/* стили main index */
 
-/* Подвал */
-footer {
-  background-color: var(--third-background-color);
+.hero{
+  background-color: #2F303A;
 }
 
-.logo-footer{
+.hero-title{
+
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+  
 }
 
-.footer-main-link{
+.hero-button{
+  background-color: var(--accent);
   color: #ffffff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
-.footer-link{
-  color: rgba(255, 255, 255, 0.6);
+.advantage-title{
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.footer-list {
+.advantage-text{
 
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.team-title{
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+}
+
+.team-text{
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
