@@ -142,8 +142,8 @@ button {
     font-family: inherit;
 }
 
-.cards-link{
-  color: inherit;
+.cards-text{
+  color: var(--primary-text-color);
 }
 
 /* стили main index */
